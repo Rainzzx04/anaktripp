@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anak Trip</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Anak<span>trip</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#foto">Foto</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search form start  -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Cari disini..." />
+        <label for="search-box"><i data-feather="user"></i></label>
+      </div>
+      <!-- Search form end -->
+
+      <!-- Shopping Cart Start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/produk/minibeads (1).jpg" alt="Produk 1" />
+          <div class="item-detail">
+            <h3>Mini Beads(klara)</h3>
+            <div class="item-price">IDR 15K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produk/nasgor.jpg" alt="Produk 2" />
+          <div class="item-detail">
+            <h3>Nasgor bunda</h3>
+            <div class="item-price">IDR 15K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produk/klappertaart.jpg" alt="Produk 3" />
+          <div class="item-detail">
+            <h3>klappertaart Bunda</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Nikmati Memori <span>Kita</span></h1>
+        <p>
+          Link ini berisi <span>foto foto</span> kenangan kita di awal
+          <span>SMA</span> sampai sekarang
+        </p>
+        <a
+          href="https://www.instagram.com/nakanaktrip?igsh=MWs5ODB5dXU1Y2prOQ=="
+          class="cta"
+          target="_blank"
+          >Ingat Sekarang?</a
+        >
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Bagaimana Kita Terbentuk?</h3>
+          <p>
+            Kita hanyalah sekumpulan remaja biasa yang masih tumbuh dan ingin
+            tahu tentang banyak hal. dipertemukan secara tidak langsung di salah
+            satu sma terbaik yaitu AVEROS, waktu demi waktu kami lewati....
+            bagaikan hari yang silih berganti, kita mulai tumbuh dan berkumpul
+            dari biji menjadi pohon. suatu hari setelah UAS kami memutuskan
+            untuk menjelajahi bersama area pedalaman KM 12.
+          </p>
+          <p>
+            Banyak hal hal yg kita lewati dari perasaan Cemas, bahagia, sedih,
+            Ragu dan takut. Setelah perjalanan itu kami mulai bersama. momen ini
+            mengajarkan kita dan membawa kita menjadi satu layaknya pohon dari
+            akar hingga daun. Meski nantinya Dedaunan akan jatuh satu persatu ke
+            tanah, senang rasanya pernah menjadi bagian dari pertemanan ini.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section id="foto" class="foto">
+      <h2><span>Personil</span> Kami</h2>
+      <p>Pasti kalian belum kenal orang orang yang ada di dalam sini</p>
+
+      <div class="row">
+        <div class="foto-card">
+          <img src="img/menu/1.jpg.jpg" alt="Raihan" class="foto-card-img" />
+          <h3 class="foto-card-title">-Raihan-</h3>
+          <a
+            href="https://www.instagram.com/rainzzx_04/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Subasik</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/2(2).jpg.jpeg" alt="Klara" class="foto-card-img" />
+          <h3 class="foto-card-title">-Klara-</h3>
+          <a
+            href="https://www.instagram.com/klrrxaaz/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Jalan Tol</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/3(1).jpg.png" alt="Marsya" class="foto-card-img" />
+          <h3 class="foto-card-title">-Marsya-</h3>
+          <a
+            href="https://www.instagram.com/mrsyaazhrra/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Calon Dokter</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/arjun.jpg.jpg" alt="Arjun" class="foto-card-img" />
+          <h3 class="foto-card-title">-Arjun-</h3>
+          <a
+            href="https://www.instagram.com/arjunnn_pratamaa/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Unknown Information</p>
+        </div>
+        <div class="foto-card">
+          <img
+            src="img/menu/5(2).jpg.jpg"
+            alt="Dzakwan"
+            class="foto-card-img"
+          />
+          <h3 class="foto-card-title">-Dzakwan-</h3>
+          <a
+            href="https://www.instagram.com/dzakwanjlnsh/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">BayMax</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/6(2).jpg.jpg" alt="Astrid" class="foto-card-img" />
+          <h3 class="foto-card-title">-Astrid-</h3>
+          <a
+            href="https://www.instagram.com/_astridwulan/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Musuh Unknown</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/7.jpg.jpg" alt="Calysta" class="foto-card-img" />
+          <h3 class="foto-card-title">-Calysta-</h3>
+          <a
+            href="https://www.instagram.com/clystafdrraa/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Sugesik</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/8(2).jpg.jpg" alt="Rival" class="foto-card-img" />
+          <h3 class="foto-card-title">-Rival-</h3>
+          <a
+            href="https://www.instagram.com/alvaresapriano/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">The Mask</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/9(3).jpg.jpg" alt="Dhiki" class="foto-card-img" />
+          <h3 class="foto-card-title">-Dhiki-</h3>
+          <a
+            href="https://www.instagram.com/dhikiek/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Mbrottt</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/10.jpg.jpg" alt="Fidel" class="foto-card-img" />
+          <h3 class="foto-card-title">-Fidel-</h3>
+          <a
+            href="https://www.instagram.com/pidellpopp/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Kakak Pengertian</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/11.jpg.jpg" alt="Devan" class="foto-card-img" />
+          <h3 class="foto-card-title">-Devan-</h3>
+          <a
+            href="https://www.instagram.com/_eldepanooo/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Motor Ganteng</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/12.jpg.jpg" alt="Akmal" class="foto-card-img" />
+          <h3 class="foto-card-title">-Akmal-</h3>
+          <a
+            href="https://www.instagram.com/youumall/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Kobe Bryant</p>
+        </div>
+        <div class="foto-card">
+          <img
+            src="img/menu/13(1).jpg.jpeg"
+            alt="Fachri"
+            class="foto-card-img"
+          />
+          <h3 class="foto-card-title">-Fachri-</h3>
+          <a
+            href="https://www.instagram.com/algfr._/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Perakit PC</p>
+        </div>
+        <div class="foto-card">
+          <img src="img/menu/14.jpg.jpg" alt="Wawa" class="foto-card-img" />
+          <h3 class="foto-card-title">-Wawa-</h3>
+          <a
+            href="https://www.instagram.com/nasywaharis/"
+            target="_blank"
+            class="instagram-link"
+            ><i data-feather="instagram"></i
+          ></a>
+          <p class="foto-card-age">Gacorrr</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Product Section Start -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan </span>Kami</h2>
+
+      <p>Setidaknya inilah produk yang dapat kami tawarkan</p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/minibeads (1).jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Mini Beads(Klara)</h3>
+            <div class="product-stars">
+              <a href="https://www.instagram.com/mini.beaxs/" target="_blank"
+                ><i data-feather="instagram"></i
+              ></a>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">Rp.15,000 <span>Rp.30,000 </span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="https://www.instagram.com/lapakhaleluya/" target="_blank"
+              ><i data-feather="shopping-cart"></i
+            ></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+            <a
+              href="https://wa.me/6285244476700"
+              class="whatsapp-button"
+              target="_blank"
+              ><i data-feather="message-square"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/nasgor.jpg" alt="Product 2" />
+          </div>
+          <div class="product-content">
+            <h3>Nasgor Bunda</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">Rp.15,000 <span>Rp.25,000</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="https://www.instagram.com/lapakhaleluya/" target="_blank"
+              ><i data-feather="shopping-cart"></i
+            ></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+            <a
+              href="https://wa.me/6285244476700"
+              class="whatsapp-button"
+              target="_blank"
+              ><i data-feather="message-square"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/klappertaart.jpg" alt="Product 3" />
+          </div>
+          <div class="product-content">
+            <h3>klappertaart Bunda</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">Rp.30,000 <span>Rp.50,000 </span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="https://www.instagram.com/lapakhaleluya/" target="_blank"
+              ><i data-feather="shopping-cart"></i
+            ></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+            <a
+              href="https://wa.me/6285244476700"
+              class="whatsapp-button"
+              target="_blank"
+              ><i data-feather="message-square"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/lapakjaket.jpeg" alt="Product 4" />
+          </div>
+          <div class="product-content">
+            <h3>Baju Thrift(klara)</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">
+              Under Rp.150,000 <span>Rp.300,000 </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2>Kontak <span>Kami</span></h2>
+      <p>
+        <a
+          href="https://chat.whatsapp.com/I4USOmHLylB0GXlfKOK62e"
+          class="whatsapp-button"
+          ><i data-feather="message-square"></i
+        ></a>
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3305789968567!2d131.33109817478714!3d-0.8959015353236703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d59551cf5242419%3A0xf83c8439623e88b0!2sSMA%20Averos%20Kota%20Sorong!5e0!3m2!1sid!2sid!4v1696038816072!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="nomor hp" />
+          </div>
+          <button type="submit" class="btn">Kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a
+          href="https://www.instagram.com/nakanaktrip?igsh=MWs5ODB5dXU1Y2prOQ=="
+          target="_blank"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#foto">Foto</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Rainzzx04.</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start  -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk/minibeads (1).jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>Buatan Klara dan Kak Juin</p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">Rp.15.000 <span>Rp.20.000</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk/nasgor.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 2</h3>
+            <p>Nasi goreng Nikmat Buatan Bunda Fitri</p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">Rp.15.000 <span>Rp.25.000</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk/klappertaart.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 3</h3>
+            <p>selalu jadi rebutan Orang Orang</p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">Rp.30.000 <span>Rp.50.000</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk/lapakjaket.jpeg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 4</h3>
+            <p>barang branded dan Thrifting</p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">Rp.150.000 <span>Rp.300.000</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end  -->
+
+    <!-- Feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Java Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
